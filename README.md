@@ -26,3 +26,9 @@ python -u run.py -i 1709.04905 1706.03762 -s arxiv_dir
 
 - `-s`: Downloaded arxiv pages and files are stored into this directory.
 - `-o`: Output is printed and saved as a json file with this file path. Default is `./comments.json'.
+
+
+## Requirement
+
+- requests
+- lxml
