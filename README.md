@@ -30,3 +30,14 @@ python -u run.py -i 1709.04905 1706.03762 -s arxiv_dir
 
 - requests
 - lxml
+
+
+## For Writers
+
+You can remove `%`-comments from your file as follows:
+
+```
+perl -pe 's/(^|[^\\])%.*/\1%/' < old.tex > new.tex
+```
+
+This one line command is given from [arxiv](https://arxiv.org/help/faq/whytex).
