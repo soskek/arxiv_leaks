@@ -57,7 +57,7 @@ def read_paper(arxiv_id, dir_path='./'):
     url = url_bib_base + arxiv_id
     bib_path = download(url, dir_path)
 
-    if not targz_path or not bib_path:
+    if not targz_path:
         return []
     else:
         return read_tex_files(targz_path, bib_path)
